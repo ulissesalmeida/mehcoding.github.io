@@ -15,7 +15,7 @@ title of course, my other teammates has the same title. That's why we need to
 use our birth names to communicate with each other. Imagine the confusion would be if we use the job title, "Hey Software Developer, I need your help.", everyone will question "Are you talking with me?". When they want to talk to me they use my name and my name is Ulisses.
 
 Ulisses with "i"? Where is the "y"? Is not Ulysses? WHY? HA! I'm from Brazil, here in my country we use Ulisses. OH "In Spanish is Ulises". I've mentioned that I'm software developer
-right? Well I work at [Plataformatec](http://www.plataformatec.com.br), there
+right? Well I work at [Plataformatec][plataformatec], there
 we do a lot of web development with Ruby and Elixir.
 
 Work, work, code, work, code, work, bah so boring, where is my hobbies? I really would like to impress you, you did read until here, I don't
@@ -23,5 +23,17 @@ want to disappointing you, I would like to say to you that I do space
 travels, kung fu, rock band, volunteer work or maintaning some open source project. But I'm sorry, I'm just a typical geek, I love to play video games, tabletop RPG and boardgames. Of course I also do love watch movies, series, animations, why not read books and HQs and listen heavy metal bands. Whaaat? Do you like of these stuff too?
 Awesome!!!!! I hope we can hangout soon! :)
 
-You can get in touch using [twitter](http://twitter.com/ulissesalmeida), if you see something that need
-to be fixed in this blog, feel free to [open some issues](https://github.com/ulissesalmeida/ulissesalmeida.github.io/issues).
+You can get in touch using these social networks:
+
+* [Twitter][ua-twitter]
+* [Linkedin][ua-linkedin]
+* [GitHub][ua-github]
+
+If you see something that need to be fixed in this blog, feel free to [open
+some issues][repo-issues].
+
+[plataformatec]: http://www.plataformatec.com.br
+[ua-twitter]: http://twitter.com/ulissesalmeida
+[ua-linkedin]: https://www.linkedin.com/in/ulissesalmeida
+[ua-github]: https://github.com/ulissesalmeida
+[repo-issues]: https://github.com/ulissesalmeida/ulissesalmeida.github.io/issues
