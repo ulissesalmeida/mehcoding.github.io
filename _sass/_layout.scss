@@ -29,6 +29,8 @@
   padding: $spacing-unit 0;
 }
 
+.license {
+  font-size: 0.7rem;
 }
 
 @include media-query($on-laptop) {
