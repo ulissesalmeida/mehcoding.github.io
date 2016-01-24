@@ -1,29 +1,18 @@
 <footer class="site-footer">
-  <div class="wrapper wrapper-middle">
-    <h2 class="footer-heading">
-      <a href="{{ site.baseurl }}/">about</a>
-    </h2>
-    
-    <ul class="contact-list">
-      <li>
-        <a class='fa fa-github'></a>
-      </li>
+  <div class="wrapper">
+    {% if page.title %}
+      <p>
+        <a href="{{ site.baseurl }}/">Home</a>
+      </p>
+    {% endif %}
 
-      <li>
-        <a class='fa fa-rss'></a>
-      </li>
+    <p>
+      <a href="{{ site.baseurl }}/about">About</a>
+    </p>
 
-      <li>
-        <a class='fa fa-twitter'></a>
-      </li>
+    <p>
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+    </p>
 
-      <li>
-        <a class='fa fa-google-plus'></a>
-      </li>
-
-      <li>
-        <a class='fa fa-linkedin'></a>
-      </li>
-    </ul>
   </div>
 </footer>
