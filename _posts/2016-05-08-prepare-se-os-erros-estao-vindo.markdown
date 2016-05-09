@@ -7,6 +7,8 @@ categories: aprendendo-a-programar
 lang: pt-BR
 ---
 
+![errorsarecoming](/assets/errorsarecoming.jpg)
+
 Quando somos iniciantes na programação é difícil lidar com os erros que brotam em nossa tela. Eles chegam quando não estamos esperando, não são gentis, na maioria das vezes são em inglês, tudo para de funcionar e ainda lhe acusam de maneira que parece que você fez tudo errado.
 
 Os erros são tão cruéis que qualquer um da sala consegue ver que você está com problemas. Pois muitas vezes quando o erro acontece, todo resultado da sua tela é trocado por um monte de texto escrito em letras grandes e vermelhas. Só restava aplicar a fonte "Gothic" e elas se tornariam a obra prima da maldade.
