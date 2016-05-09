@@ -5,6 +5,8 @@ date:   2016-05-08
 author: Ulisses Almeida
 categories: aprendendo-a-programar
 lang: pt-BR
+excerpt: Quando somos iniciantes na programação é difícil lidar com os erros que brotam em nossa tela. Eles chegam quando não estamos esperando, não são gentis, na maioria das vezes são em inglês, tudo para de funcionar e ainda lhe acusam de maneira que parece que você fez tudo errado.
+
 ---
 
 ![errorsarecoming](/assets/errorsarecoming.jpg)
