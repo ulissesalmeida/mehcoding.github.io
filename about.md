@@ -5,12 +5,15 @@ permalink: /about/
 ---
 
 <img src="http://www.gravatar.com/avatar/50e713934ed341675bf1fa73127ec260?s=250" class="about-profile-img"> HEY! You clicked on "About". Do you want to know about me? Really? I'm flattered. Let's not disappoint you and let's say something
-about me... but wait, what do you want to know? It's a blog about coding then
-you may imagine that I'm software developer. You're right, my job title is "Software Developer". Why? Because most of my tasks in my job at [Plataformatec][plataformatec] is write and review a lot of Ruby code. My teammates don't call me by the job title, "Hey software developer, come here pls", they call my attention using my name. My name is Ulisses, nice to meet you! :smile:
+about me but wait, what do you want to know?
 
-"LoL I think you have typo in your name, shouldn't you write Ulysses?". No way! I'm from Brazil, we use "i" around here.
+My job? Well, It's a blog about coding then you may imagine that I'm a software developer, and you're right; my job title is "Software Developer." I write and review a lot of Ruby code on my daily tasks at [Plataformatec][plataformatec]. My teammates don't call me by the job title, "Hey software developer, come here pls." It would be weird.  They call my attention using my name, and my name is Ulisses, pleased to meet you!
 
-In my free time I do stuff that geeks do. I love to play video games, tabletop RPG and boardgames, watch movies, series, animations, read books and HQs. My resolution for 2016 is learn how to swim! I started the swim lessons in the beginning of January and until now is being awesome!
+"LOL I think you have a typo in your name, shouldn't you write Ulysses?". Ahaa! I'm from Brazil. We use "i" around here.
+
+In my free time, I do stuff that geeks normally do. I love to play video games, tabletop RPG, and board games. I like to watch movies, series, animations, read books and HQs.
+
+My resolution for 2016 is to learn how to swim! I started the swim lessons at the beginning of January and until now is being awesome!
 
 Thank you for your patience until here. I hope we can hangout soon! :)
 
@@ -20,7 +23,7 @@ You can get in touch using these social networks:
 * [Linkedin][ua-linkedin]
 * [GitHub][ua-github]
 
-If you see something that need to be fixed in this blog, feel free to [open
+If you see something that needs to fix on this blog, feel free to [open
 some issues][repo-issues].
 
 [plataformatec]: http://www.plataformatec.com.br
