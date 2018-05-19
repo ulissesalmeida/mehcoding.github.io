@@ -1,0 +1,15 @@
+<aside class="blog-aside">
+  <a href="https://pragprog.com/cart/add/skus?sku_id=910_911" class="cdc-elixir" target="_new">
+    <img alt="Cover Image For Learn Functional Programming with Elixir…" src="https://imagery.pragprog.com/products/500/cdc-elixir.jpg?1489588161">
+    <span>Buy Now</span>
+  </a>
+
+  <h3>Posts</h3>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li class='post-list-item'>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</aside>
