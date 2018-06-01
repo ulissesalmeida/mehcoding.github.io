@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  6 dicas para mandar bem no código do processo seletivo da Plataformatec
-date:   2016-05-27
+date:   2016-03-23
 author: Ulisses Almeida
 categories: plataformatec-blog
 lang: pt-BR
