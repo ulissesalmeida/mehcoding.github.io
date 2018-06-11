@@ -69,6 +69,6 @@ Para saber mais como serão seus primeiros meses de trabalho, indico dois posts 
 
 Espero que tenha gostado dessas dicas. Se você gostou e acha que elas se relacionam com a maneira que você gosta de trabalhar, inscreva-se no nosso [processo seletivo](http://careers.plataformatec.com.br/).
 
-Para outras dicas de como mandar bem no desenvolvimento de software, recomendo também dar uma olhada nas palestras [Learn From My Mistakes](https://speakerdeck.com/flaviafortes/learn-from-my-mistakes) da [Flavia Fortes](https://twitter.com/FlaFortes) e [10 Coisas Que Eu Gostaria de Ter aprendido Mais Cedo](https://speakerdeck.com/lucas/10-coisas-que-eu-gostaria-de-ter-aprendido-mais-cedo) do [Lucas Mazza](https://twitter.com/lucasmazza).
+Para outras dicas de como mandar bem no desenvolvimento de software, recomendo também dar uma olhada nas palestras [Learn From My Mistakes](https://speakerdeck.com/flaviafortes/rubyconf-2015-learn-from-my-mistakes) da [Flavia Fortes](https://twitter.com/FlaFortes) e [10 Coisas Que Eu Gostaria de Ter aprendido Mais Cedo](https://speakerdeck.com/lucas/10-coisas-que-eu-gostaria-de-ter-aprendido-mais-cedo) do [Lucas Mazza](https://twitter.com/lucasmazza).
 
 Espero ver seu código em breve 😉
