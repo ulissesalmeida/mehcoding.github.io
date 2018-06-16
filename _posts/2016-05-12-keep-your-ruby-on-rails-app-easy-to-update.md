@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Keep your Ruby On Rails app easy to udpate
+title:  Keep your Ruby On Rails app easy to update
 date:   2016-05-12
 author: Ulisses Almeida
 categories: plataformatec-blog
