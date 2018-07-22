@@ -6,10 +6,10 @@ author: Ulisses Almeida
 categories: Elixir
 lang: en
 excerpt: "I was playing with Exercism, an awesome platform to practice and learn to code with exercises. While I was practicing, I found an interesting exercise called Nucleotide Count. First, I tried an obvious answer, but It leads me to a suboptimal solution in terms of speed. Let's see the error that I did and how we can improve the performance by using `Enum.reduce/3`."
-image: /assets/nucleotide.png
+image: /assets/nucleotides.png
 ---
 
-![nucleotide](/assets/nucleotide.png)
+![nucleotide](/assets/nucleotides.png)
 
 I was playing with [Exercism](https://exercism.io/), an awesome platform to practice and learn to code with exercises. While I was practicing, I found an interesting exercise called [Nucleotide Count](https://github.com/exercism/elixir/tree/master/exercises/nucleotide-count). First, I tried an obvious answer, but It leads me to a suboptimal solution in terms of speed. Let's see the error that I did and how we can improve the performance by using `Enum.reduce/3`.
 
