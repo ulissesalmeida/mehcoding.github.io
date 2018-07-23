@@ -69,7 +69,7 @@ def histogram(strand) do
 end
 ```
 
-The `Enum.reduce/3` will iterate over all characters in `strand` by executing the `NucleotideCount.update_histogram/2`. The result of that function will be the new histogram that will be used as an argument for the next iterations. The last iteration will return the final histogram that also will be returned by the `Enum.reduce/3`.
+The `Enum.reduce/3` will iterate over all characters in `strand` by using `histogram` as the initial value and executing the `NucleotideCount.update_histogram/2`. The result of that function will be the new histogram that will be used as an argument for the next iterations. The last iteration will return the final histogram that also will be returned by the `Enum.reduce/3`.
 
 The last piece of the puzzle is the `NucleotideCount.update_histogram/2`, let's see how we can implement that:
 
