@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "O tal do inglês e o desenvolvimento de software"
+date:   2018-08-07
+author: Ulisses Almeida
+categories: aprendendo-a-programar
+lang: pt-BR
+excerpt: "Acontecem a todo tempo discussões na comunidade de desenvolvimento sobre a necessidade do inglês no desenvolvimento de software. Para não ficar de fora dessa, vou me juntar a turma explicando um pouco da importância do inglês e dando algumas dicas que me ajudaram a derrubar a barreira do idioma."
+image: /assets/ingles.png
+---
+
+![ingles](/assets/ingles.png)
+
+Não faz muito tempo que aconteceu uma discussão na comunidade de desenvolvimento sobre a necessidade do inglês no desenvolvimento de software. Muito foi discutido, desde a necessidade de conteúdo em português para iniciantes, até dicas de como se familiarizar com o inglês. Para não ficar de fora dessa, vou me juntar a turma explicando um pouco da importância do inglês e dando algumas dicas que me ajudaram a derrubar a barreira do idioma.
+
+Hoje, o inglês é o idioma da tecnologia. A maioria das linguagens de programação que o mercado utiliza são em inglês; banco de dados, editores de texto, IDE, ferramentas de configuração e orquestração de sistemas, versionadores de código. Não importa se a tecnologia veio do Japão ([Ruby](https://www.ruby-lang.org/pt/)), do Brasil ([Lua](https://www.lua.org/) e [Elixir](https://elixir-lang.org/)) ou da Suécia ([Erlang](https://www.erlang.org/)), todas são em inglês. Isso influencia, e muito, para que as documentações, cursos, palestras e tutoriais sejam também em inglês.
+
+Quando uma pessoa derruba a barreira do inglês, ela passa a possuir mais acesso à informação e pode se tornar uma profissional ainda melhor. Quando se produz conteúdo em inglês, a pessoa abre portas para o mundo e, ao mesmo tempo, dificulta acesso à informação para aquelas que não sabem. Enquanto quem produzir em português abre portas para muitas pessoas, mas as fecha para o mundo.
+
+Aprender inglês enquanto você é iniciante em tecnologia pode ser muita coisa para  estudar ao mesmo tempo. Nesse caso você precisa priorizar. Aprender a tecnologia te garante o emprego e o resultado do dia-a-dia, por isso os conteúdos em português fazem tanto sucesso e são necessários. São livros da [Casa do Código](https://www.casadocodigo.com.br), cursos online da [Alura](https://www.alura.com.br) ou presenciais da [Caelum](https://www.caelum.com.br), tutoriais e matérias da [iMaster](https://imasters.com.br), ou eventos e encontros do [GuruSP](https://www.gurusp.org/) ou [Elug](https://www.meetup.com/pt-BR/elug_sp/).
+
+Mesmo com tanto conteúdo em português de qualidade, é importante não se esquecer do inglês. O conteúdo em inglês precisa de tradução e saber inglês te deixa atualizado mais rápido (e uma tradução nem sempre vai ser possível). Me lembro da primeira vez que fui na RubyConf Brasil em 2013. Pude conhecer muitas pessoas sensacionais por lá e o mais interessante foi poder ter usado o inglês para conhecer pessoas de outros lugares do mundo naquele evento brasileiro. Foi uma sensação muito boa. E hoje, pude abraçar uma oportunidade de trabalhar fora do país. Aprender inglês traz muita coisa boa na carreira de tecnologia.
+
+Sabendo que inglês é muito importante, como se familiarizar?
+
+* __Comece a programar em inglês__. "O quê?! Sério?" Sim! Comece a declarar suas variáveis, módulos, classes, métodos, funções e sei lá mais o que em inglês. Isso vai te ajudar a praticar, Google Tradutor e dicionários online estão aí para te auxiliar na tradução dos termos. Não se esqueça de discutir com seu time antes de sair criando esse padrão no projeto e nem de pedir uma ajuda para revisar. O código não é só seu, o código que você cria hoje será mantido por outra pessoa amanhã.
+* __Entretenimento no idioma original__. Nada como consumir algo no conforto do português. Você pode aproveitar para praticar (e ainda se divertir) colocando as séries, filmes, jogos, ou desenhos animados que costuma consumir no idioma original. Você pode começar colocando apenas o idioma em inglês e a legenda em português, e depois, pode tentar colocar a legenda em inglês. Por último tente assistir sem nenhuma legenda. Você vai se impressionar no quanto é capaz de absorver de um filme mesmo não entendendo 100% dos diálogos.
+* __Cursos__. Dê uma chance para aquela escola de inglês do bairro ou até aquela mais sofitiscada do centro. Cursos podem ser financeiramente impeditivo para uns ou uma questão de tempo para outros. Não se preocupe em fazer o curso inteiro, eu mesmo não fiz. Cursos são ótimos para socializar e tirar dúvidas com os professores. Para uma experiência mais introspectiva, existem cursos on-line também.
+* __Aplicativos para aprendizado__. Na minha época não havia tantos [aplicativos](https://pt.duolingo.com/) (estou parecendo velho), estou começando a experimentar agora e são ótimos para aumentar seu vocabulário.
+* __Grupos e Meetups__. Existem muito hostels em cidades turísticas brasileiras que abrem um espaço para não-hóspedes socializarem com os gringos que estão passando umas férias no Brasil. Você vai lá e só paga o que consumir (bebidas ou comida) e pode praticar seu inglês com estrangeiros. É uma experiência ótima saber que você consegue se comunicar com pessoas que não sabem português, aumenta muito a sua confiança no idioma. O melhor: sem precisar sair do Brasil.
+* __Livros__. Existem livros que ensinam gramática, possuem exercícios e são usados como base para muitos cursos. Muito deles são caros, por isso vi muita gente comprando usado ou pegando emprestado.
+* __Pesquise o significado de uma palavra nova em inglês__. Toda vez que descubro uma palavra nova em inglês bate aquela tentação de ver a tradução em português. Entretanto, você pode melhorar sua prática no idioma procurando o significado da palavra no próprio inglês. As vezes, só a explicação e os sinônimos daquela palavra são suficientes para entender seu significado. Essa prática te ajuda a pensar em inglês.
+* __Aprender sua ciência em inglês__. Na computação é bastante difícil fugir disso, uma hora ou outra, você vai ter que ler o README daquela lib open source marota. Minha sugestão é não parar aí, veja palestras, cursos, tutoriais e livros sobre computação em inglês.
+* __Escreva em inglês__. Ótimo para praticar. Você pode escrever sobre sua vida ou tutoriais de programação. É bom ter alguém e/ou alguma ferramenta para revisar seu texto. Sem alguém para te dar feedback sobre o texto, você perde a oportunidade de aprendizado. Nada melhor do que aprender com seus erros.
+* __Intercâmbio__. A sugestão mais difícil de pôr em prática de todas. Precisa de um grande investimento e colocar boa parte da sua vida em pausa enquanto você tem essa experiência no exterior. Porém, é a experiência mais imersiva de todas. Você é praticamente obrigado a usar o inglês ou não vai conseguir fazer nada. Eu fiz apenas 1 mês, pois era o tempo que eu tinha disponível pelas férias e o que meu dinheiro conseguia financiar. Foi uma experiência muita boa e me ajudou a ter uma confiança que eu não tinha. Os medos de falar errado ou não pronunciar perfeitamente as palavras foram reduzidos drasticamente, pois acredite em mim, a galera entende nosso sotaque brasileiro.
+
+Espero que essas dicas te ajudem a praticar e familiarizar-se com o inglês. O inglês é muito importante para ser uma pessoa melhor na carreira de tecnologia, mas não precisa ter pressa se você ainda está no comecinho. Vai dominando a tecnologia e aos poucos adicione prática do inglês na atividades do dia-a-dia.
