@@ -38,9 +38,9 @@ Já em terras estonianas, eu cancelei as passagens de retorno e a companhia aér
 
 ## Bagagens, really?
 
-Esse foi um perrengue rápido. Compramos passagens para ter duas bagagens despachadas em todo trajeto, tanto Brasil até Londres e Londres até Tallinn. Os vôos dentro da Europa não costumam ter bagagens despachadas. Quando íamos embarcar para Tallinn, a funcionária nos deu o maior susto dizendo que teríamos que pagar 50 breakexists por cada mala.
+Esse foi um perrengue rápido. Compramos passagens para ter duas bagagens despachadas em todo trajeto, tanto Brasil até Londres e Londres até Tallinn. Os vôos dentro da Europa não costumam ter bagagens despachadas. Quando íamos embarcar para Tallinn, a funcionária nos deu o maior susto dizendo que teríamos que pagar 50 brexits por cada mala.
 
-Felizmente isso não aconteceu, quando ela começou passar as malas estava tudo devidamente pago. Entretanto, a Stephani estava com uma mala de mão e uma mochila. Funcionária barrou dizendo que era uma ou outra, ela não podia entrar no avião com as duas, enquanto no Brasil isso não foi problema nenhum, em Londres foi. Tivemos que desembolsar 50 breakexists. Então, fica dica! Só vá com uma mochila ou uma mala de mão, não os dois.
+Felizmente isso não aconteceu, quando ela começou passar as malas estava tudo devidamente pago. Entretanto, a Stephani estava com uma mala de mão e uma mochila. Funcionária barrou dizendo que era uma ou outra, ela não podia entrar no avião com as duas, enquanto no Brasil isso não foi problema nenhum, em Londres foi. Tivemos que desembolsar 50 brexits. Então, fica dica! Só vá com uma mochila ou uma mala de mão, não os dois.
 
 ## Apartamento, até que fácil
 
