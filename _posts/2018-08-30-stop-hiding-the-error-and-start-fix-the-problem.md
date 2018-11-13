@@ -9,10 +9,10 @@ excerpt: "I’ve been working on Plataformatec for 5 years and one common mistak
 hiding the error, instead of fixing the problem. This kind of behaviour can turn your product full of problems 
 quickly by having a codebase with unnecessary defensive programming. Let’s explore that by taking a look at an example 
 from the real world."
-image: /assets/
+image: /assets/targets.jpg
 ---
 
-![longprojects](/assets/longprojects.jpg)
+![longprojects](/assets/targets.jpg)
 
 __This is a repost from [Plataformatec blog](http://blog.plataformatec.com.br/2018/07/stop-hiding-the-error-and-start-fixing-the-problem/).__
 
