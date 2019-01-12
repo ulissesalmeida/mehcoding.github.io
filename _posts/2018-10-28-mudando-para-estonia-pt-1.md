@@ -22,11 +22,14 @@ Para quem é solteiro e está querendo ir para Estônia com intuito de trabalhar
 * Tradução juramentada para o inglês de ambos documentos
 * Apostilamento de Haia (uma espécie de certificação que vários países aceitam como um documento válido)
 
+
 União estável brasileira não é considerado um casamento válido na Estônia. Se estiver nessa situação, você precisará se casar no Brasil ou na Estônia. No nosso caso, eu e a Stephani, preferimos registrar nossa união aqui. Nesse caso, além da certidão de nascimento juramentada e apostilada, você precisará de uma declaração de estado civil. QUÊ?
 
 Isso, você precisa de um documento do seu país de origem dizendo que você é solteiro e que nada te impede de casar. Só fazer o download do arquivo [aqui](http://www.portalconsular.itamaraty.gov.br/declaracao-de-estado-civil), preencher, levar duas testemunhas para algum cartório, reconhecer firma, fazer uma tradução juramentada e o apostilamento de Haia. Cuidado com alguns cartórios em São Paulo; eles vão querer cobrar uma nota para fazer essa declaração de estado civil, então não caia nessa roubada.
 
 Ao saber que vai se mudar, tente correr atrás desses documentos o quanto antes, pois decidimos por esse caminho bem nas últimas semanas do Brasil e foi bastante estressante ficar correndo atrás de tudo isso. Nós ainda não sabemos se esses documentos serão suficientes ou se ainda terá mais algum perrengue, então fique de olho nos próximos posts.
+
+__Edit (2019-01-12):__ Não precisa apostilar as traduções. Não precisa traduzir o declaração de estado civiil. Você precisa entregar a declaração de estado civil na embaixada brasileira em Tallinn, lá eles vão te fornecer o documento que o governo declara seu estado civil.
 
 ## Não precisa de visto, mas precisa
 
