@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Posts about software development. It contains personal experiences,
   lessons learned and personal tastes. You may find helpful stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ulissesalmeida.github.io"
+url: "https://ulissesalmeida.github.io"
 twitter_username: ulissesalmeida
 github_username:  ulissesalmeida
 markdown: kramdown

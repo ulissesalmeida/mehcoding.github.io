@@ -6,12 +6,12 @@ author: Ulisses Almeida
 categories: life
 lang: pt-BR
 excerpt: "Olá pessoinhas que visitam este humilde blog quando tem um conteúdo novo. Há alguns meses atrás eu contei um pouco sobre como foi a minha mudança para a Estônia, sobre alguns perrengues das primeiras semanas e da viagem do Brasil para cá. E, após várias amigas e amigos me perguntarem como estão as coisas, resolvi escrever mais um post contando um pouco mais dessa aventura."
-image: /assets/tallinn.jpg
+image: /assets/tallinn_02.jpg
 ---
 
 ![tallinn](/assets/tallinn_02.jpg)
 
-Olá pessoinhas que visitam este humilde blog quando tem um conteúdo novo. Há alguns meses atrás [eu contei um pouco sobre como foi a minha mudança para a Estônia](http://ulissesalmeida.github.io/life/2018/10/28/mudando-para-estonia-pt-1.html), sobre alguns perrengues das primeiras semanas e da viagem do Brasil para cá. E, após várias amigas e amigos me perguntarem como estão as coisas, resolvi escrever mais um post contando um pouco mais dessa aventura.
+Olá pessoinhas que visitam este humilde blog quando tem um conteúdo novo. Há alguns meses atrás [eu contei um pouco sobre como foi a minha mudança para a Estônia](https://ulissesalmeida.github.io/life/2018/10/28/mudando-para-estonia-pt-1.html), sobre alguns perrengues das primeiras semanas e da viagem do Brasil para cá. E, após várias amigas e amigos me perguntarem como estão as coisas, resolvi escrever mais um post contando um pouco mais dessa aventura.
 
 Chega de introdução, vamos lá!
 
