@@ -17,7 +17,7 @@ There is a well-known truth about software development: if your software is usef
 
 ## Migrations: a love and hate relationship
 
-Before we move on, let's go through a little more context so we can be on the same page. Your application's source code and your database live in a different universe. When you run `git pull` in your terminal to get code updates, it doesn't automatically update your database changes. If you're using Ecto SQL, you also have to run `mix ecto.migrate` -- then voilà, your database is now in the most recent version.
+Before we move on, let's go through a little more context so we can be on the same page. Your application's source code and your database live in different universes. When you run `git pull` in your terminal to get code updates, it doesn't automatically update your database changes. If you're using Ecto SQL, you also have to run `mix ecto.migrate` -- then voilà, your database is now in the most recent version.
 
 It looks like magic, but it isn't. Someone in your team had to write a migration file. The migration files usually live on `priv/repo/migrations` of your application folder. These filenames begin with a timestamp, and Ecto uses that information to keep track of which migrations have or have not been run, and it does so in a table called `schema_migrations`. You can also check the migration status by doing `mix ecto.migrations`.
 
