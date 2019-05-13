@@ -5,21 +5,23 @@ date:   2019-05-13
 author: Ulisses Almeida
 categories: Elixir
 lang: en
-excerpt: "The `ecto.load` that allows you to get rid of the migrations files. However, that command is not easy to fit in all workflows. The Ecto SQL 3.1.2 added an option `--skip-if-loaded` that allows you to skip the database structure load in when it is loaded, allowing you to create a robust pipeline."
+excerpt: "The `ecto.load` command allows you to get rid of migration files. However, that command is not easy to fit in all workflows. Ecto SQL 3.1.2 added a `--skip-if-loaded` option that skips the database structure load step  when it has already been loaded, allowing you to create a robust pipeline."
 image: /assets/pipeline.jpg
 ---
 
 ![pipeline](/assets/pipeline.jpg)
 
-There is a truth about software development: if your software is useful; it will change. If you're building or maintaining an application with a SQL database, you need a way to publish the structure changes. In Ecto SQL, we use the migrations files. These files, after a long time, can be painful to maintain. That's why provides `ecto.load` that allows you to get rid of the files. However, that command is not easy to fit in all workflows. The Ecto SQL 3.1.2 added an option `--skip-if-loaded` that allows you to skip the database structure load in when it is loaded, allowing you to create a robust pipeline. Let's see how.
+__*Revised by [Marcelo de Polli](https://twitter.com/mdepolli). Thank you for the awesome review. ❤❤❤*__
 
-## Love & Hate migrations
+There is a well-known truth about software development: if your software is useful, it will change. If you're building or maintaining an application that has a SQL database, you need a way to keep track of structural changes. In Ecto SQL, we use migration files. These files, after a long time, can be painful to maintain. That's why the library provides the `ecto.load` mix task, which allows you to get rid of an ever-increasing amount of files. However, that command is not easy to fit in all workflows. Ecto SQL 3.1.2 added a `--skip-if-loaded` option that skips the database structure load step when it has already been loaded, allowing you to create a robust pipeline. Let's see how.
 
-Before proceeding, let's give you more context and then we can be on the same page. Your application source code and your database live in a universe. When you run `git pull` in your terminal to get code updates, it doesn't automatically update your database changes. If you're using Ecto SQL, you also have to run `mix ecto.migrate`, then voilà, your database is now in the most recent version.
+## Migrations: a love and hate relationship
 
-Looks like magic, but isn't. Somebody in your team had to write a migration file. The migrations files usually live on `priv/repo/migrations` of your application folder. These files names begin with a timestamp in their names, and Ecto uses that information to keep track of migration that had run or not in a table called `schema_migrations`. You can also check the migration status with `mix ecto.migrations`.
+Before we move on, let's go through a little more context so we can be on the same page. Your application's source code and your database live in a different universe. When you run `git pull` in your terminal to get code updates, it doesn't automatically update your database changes. If you're using Ecto SQL, you also have to run `mix ecto.migrate` -- then voilà, your database is now in the most recent version.
 
-It's a very efficient way to organize and keep track of your database changes. However, if your software is a constant change, after a while, these migrations might not make sense anymore. For example:
+It looks like magic, but it isn't. Someone in your team had to write a migration file. The migration files usually live on `priv/repo/migrations` of your application folder. These filenames begin with a timestamp, and Ecto uses that information to keep track of which migrations have or have not been run, and it does so in a table called `schema_migrations`. You can also check the migration status by doing `mix ecto.migrations`.
+
+That's a very efficient way to organize and keep track of your database changes. However, if your software is a constant change, after a while, these migrations may stop making sense altogether. For example:
 
 ```
 migrations/
@@ -33,16 +35,15 @@ migrations/
   ...tons of files
 ```
 
-In this example, without seeing the contents of the file, we can see that we created a table `flags` and we added `age` column to the table `users`. After a while, we deleted the table `flags` and the `age` from `users`. The last 2 files negate the effects of the first ones; it means we have 4 unnecessary files in our migrations folder that could be skipped or deleted.
+In this example, without looking at the contents of each file, we can see that we created a `flags` table and we added an `age` column to the `users` table. After a while, we deleted the `flags` table and the `age` column from `users`. The last two files negate the effects of the previous ones; it means we have four unnecessary files in our migrations folder that could be either skipped or deleted.
 
-The problem can be even worse if your old migrations files are referencing for some reason old modules functions. If you remove the old modules, you have to remove from these migration files too. You have to keep maintaining files that had run once in production; it never had to run there anymore. I don't know for you, but for me sound like a waste of time. No code run faster and is easier to maintain than any code.
+The problem can be even worse if your old migration files are referencing old module functions for some reason. If you removed the old modules, you'd have to remove those references from your migrations as well. That would mean maintaining files that were run only once in production; they don't even need to run there anymore. I don't know about you, but for me, that sounds like a waste of time. No code runs faster and is easier to maintain than any code.
 
 ## `ecto.load` and `ecto.dump` for the rescue!
 
-Ecto SQL gives you a shine option to keep a `structure.sql` file in your source code that has the most recent structure of the database. Using this file, you can skip running all the migrations, and in a single operation, you can have the most recent structure of the database with all migrations tracked in the `schema_migrations` table. If you try to `ecto.migrate` in sequence, nothing will happen, because everything is there.
+Ecto SQL gives you the option to keep a `structure.sql` by running the `mix ecto.dump`  command. You have to keep that file in your source code, and that contains the most recent structure of your application database. By using running `mix ecto.load`, Ecto uses the `structure.sql` file to load the database structure, skipping running all of the migrations and, in the same operation, you can still have all migrations tracked in the `schema_migrations` table just as before. If you then try to `ecto.migrate` after loading the structure, nothing happens, because everything is already there.
 
-You can keep the `structure.sql` file updated by hooking the `ecto.migration`
-and `ecto.rollback` commands to dump the structure of the database. For example, in your `mix.exs` file:
+You can keep the `structure.sql` file updated by hooking the `ecto.migration` and `ecto.rollback` commands to dump the structure of the database. For example, in your `mix.exs` file:
 
 ```elixir
 defp aliases do
@@ -53,18 +54,15 @@ defp aliases do
 end
 ```
 
-If the code above, every time you run `mix ecto.migrate` or `mix ecto.rollback` it  updates your `structure.sql` file by dumping your database structure. For new systems, you can run `mix ecto.load`, it skips all the migrations, and run the `structure.sql` file. For existing systems, you can keep running `mix ecto.migrate` as usual.
+If the code above, every time you run `mix ecto.migrate` or `mix ecto.rollback` it updates your `structure.sql` file by dumping your database structure. For brand new setups, you can run `mix ecto.load` and it will skip all the migrations and load up the `structure.sql` file. For existing setups, you can keep running `mix ecto.migrate` as usual.
 
 ## Something is rotten in the state of Denmark
 
-There are two downsides of having `structure.sql`. First, it's a huge file and
-can be a pain to solve branching conflicts in your source version control system. Second, you depend on two commands now, for new systems `mix ecto.load`, for old systems `mix ecto.migrate`, this two options can make hard integrate into some DevOps release strategies.
+There are two downsides to having a `structure.sql` file. First, it's a huge file, and any branching conflicts that happen in it can be painful to solve. Second, you'll have to depend on two commands now rather than one -- for new systems `mix ecto.load`, for old systems `mix ecto.migrate`, these two options can make it a bit harder to integrate into some DevOps release strategies.
 
-The first problem, if you're using `git`, you can use its power instead of
-touching the `structure.sql`. You can run for example, `git checkout --ours`
-on merging, or `git checkout --theirs` on rebasing, then run `mix ecto.migrate`, and you did it. You have the most recent `structure.sql`.
+As for the first problem, if you're using `git`, you can use its power instead of touching your `structure.sql`. You can run, for example, `git checkout --ours` when merging or `git checkout --theirs` when rebasing, followed by`mix ecto.migrate`, and that's it, you did it. You now have the most recent `structure.sql`.
 
-The second problem, you can create a single pipeline, for example:
+For the second problem, you can create a single pipeline. For example:
 
 ```elixir
 defp aliases do
@@ -73,13 +71,13 @@ defp aliases do
 #...
 ```
 
-If you run `mix ecto.setup`, Ecto tries to create the repository database. Then, load the database structure present in the `structure.sql` file, run any pending migration and finally run the seeds. But unfortunately, it doesn't work in the Ecto SQL version before `3.1.2`. Why?
+If you run `mix ecto.setup`, Ecto tries to create the repository database, load the database structure present in the `structure.sql` file, run any pending migrations and finally run the seeds. However, unfortunately, it doesn't work in Ecto SQL versions before `3.1.2`. Why?
 
-The `ecto.create` command gracefully succeed if the database is already created. However, the `ecto.load`  loudly fails when it tries to load the file in a database that has a structure present. This failure interrupts the pipeline execution, and it does not run the following migrations and seed commands. This behaviour makes it impossible to have a single command that runs for old and new installations.
+The `ecto.create` command gracefully succeeds if the database has already been created. However, `ecto.load` fails loudly when it tries to load the file in a database that has an already present structure. This failure interrupts the pipeline execution, preventing it from running the following migrations and seed commands. This behaviour makes it impossible to have a single command that works for both old and new installations.
 
 ## `ecto.load --skip-if-loaded` saves the day
 
-Ecto SQL team launched the `3.1.2` version that came with the `--skip-if-loaded` option. That option checks if your database contains a migrations table, if yes, it means a structure is living there, and the command succeeds and avoids to load it again. Then, our Ecto aliases can look like this:
+Fortunately for us, the Ecto SQL team released the `3.1.2` version that comes with the `--skip-if-loaded` option. That option checks if your database contains a migrations table. If it does, that means a structure is living there, and the command succeeds and avoids loading it again. Then, our Ecto aliases can look like this:
 
 ```elixir
 defp aliases do
@@ -96,12 +94,10 @@ defp aliases do
 end
 ```
 
-Then, with `ecto.setup` can run on old systems, because it runs the
-migrations and the seed file and skips the database creation and structure. It also works for new systems, since it creates the database, loads the structure, runs the seed and skips the migrations.
+This way, `ecto.setup` can now be used on old systems as well, because it runs the migrations and the seeds file while skipping database creation and structure. It also works on new systems since it creates the database, loads the structure, runs the seeds and skips the migrations.
 
-Now, it's up to you to decide how long you want to keep the migrations files.
-Most of the cases, after you run the migrations successfully in a production environment, you can get rid of them. In my scenario, we have the same system installed in many environments, some of them our team don't control, then it might take some days(sometimes weeks) until we can safely delete old migration files.
+Now it's up to you to decide how long you want to keep the migration files. In most cases, after running the migrations successfully in a production environment, you can get rid of them. In my scenario, we have the same system installed in many environments, some of which our team does not control. We're delivering changes faster than people installing them in their environments. Then, it may take some days (or even weeks) until we can safely delete old migration files.
 
 ## Wrapping up
 
-We learned how migrations are useful and how they also can be a pain to maintain. We saw how keeping `structure.sql` can reduce the need of keeping the migration files and how Ecto SQL `3.1.2` allow us to have a single command to set up new systems or keep old systems up to date. How you keep your migrations files?
+We learned how migrations are useful and how they also can be a pain to maintain. We saw how keeping `structure.sql` can reduce the need of keeping the migration files and how Ecto SQL `3.1.2` allows us to have a single command for setting up new systems and keeping old systems up to date. That's it; I hope you liked the post, and let me know, how do you keep your migration files?
