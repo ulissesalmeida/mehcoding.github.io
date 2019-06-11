@@ -14,7 +14,7 @@ My job? Well, I’m a software developer. I write and review a lot of Ruby, Elix
 
 What I do in my free time? I do stuff that geeks normally do. I love to play video games, tabletop RPG, and board games. I like to watch movies, series, animations, read books and HQs.
 
-What that book on the right side of the page? It's my book! Yeah, I wrote a book with The Pragmatic Bookshelf. The book is called [Learn Functional Programming with Elixir][book].
+What's that book on the right side of the page? It's my book! Yeah, I wrote a book with The Pragmatic Bookshelf. The book is called [Learn Functional Programming with Elixir][book].
 
 That's all. I hope we can hangout some time. You can get in touch using these social networks:
 
@@ -22,7 +22,7 @@ That's all. I hope we can hangout some time. You can get in touch using these so
 * [Linkedin][ua-linkedin]
 * [GitHub][ua-github]
 
-If you see something that needs to fix on this blog, feel free to [open
+If you see something that needs to be fixed on this blog, feel free to [open
 some issues][repo-issues].
 
 [plataformatec]: http://www.plataformatec.com.br
