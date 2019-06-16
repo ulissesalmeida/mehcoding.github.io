@@ -10,7 +10,8 @@ HEY! You clicked on “About”. Do you want to know about me? Really? I’m fla
 
 My name? My name is Ulisses, pleased to meet you! “LOL, I think you have a typo in your name, shouldn’t be Ulysses?”. Ahaa! I’m from Brazil. We use “i” here.
 
-My job? Well, I’m a software developer. I write and review a lot of Ruby, Elixir and Javascript code at [Plataformatec][plataformatec].
+My job? Well, I’m former [Plataformatec][plataformatec] software developer. Today, I
+write and review a lot of Elixir code at [The Coingaming Group][coingaming].
 
 What I do in my free time? I do stuff that geeks normally do. I love to play video games, tabletop RPG, and board games. I like to watch movies, series, animations, read books and HQs.
 
@@ -25,6 +26,7 @@ That's all. I hope we can hangout some time. You can get in touch using these so
 If you see something that needs to be fixed on this blog, feel free to [open
 some issues][repo-issues].
 
+[coingaming]: https://coingaming.io/
 [plataformatec]: http://www.plataformatec.com.br
 [book]: https://pragprog.com/book/cdc-elixir/learn-functional-programming-with-elixir
 [ua-twitter]: http://twitter.com/ulissesalmeida
