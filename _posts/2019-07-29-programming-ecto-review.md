@@ -31,23 +31,23 @@ The first part of the book is a guided introduction to Ecto. It's important to g
 
 *__Working with Changesets and Phoenix forms__*. Generating forms with your schema? Check! Need casting or validation errors? Check! Validate one and multiple associations? Check that one too!
 
-__*Testing with Sandboxes__*. It's a fascinating topic -- how to run asynchronous tests and share connections between processes. Must read!
+*__Testing with Sandboxes__*. It's a fascinating topic -- how to run asynchronous tests and share connections between processes. Must read!
 
-__*Creating and Using Custom Types__*. It's an excellent topic. The highlight here is getting to know in greater detail how Ecto SQL interfaces with your database driver.
+*__Creating and Using Custom Types__*. It's an excellent topic. The highlight here is getting to know in greater detail how Ecto SQL interfaces with your database driver.
 
-__*Inserting and Updating with Upserts__*. This topic is more geared towards a specific scenario when you want to insert data that might already be in the database. It's a cool feature to get rid of some conditional code and do atomic operations that avoid race conditions.
+*__Inserting and Updating with Upserts__*. This topic is more geared towards a specific scenario when you want to insert data that might already be in the database. It's a cool feature to get rid of some conditional code and do atomic operations that avoid race conditions.
 
-__*Optimizing Your Application Design__*. A great introduction to contexts and how to associate data from different contexts. In case you ever feel like watching a never-ending discussion, just get some developers together and have them debate how contexts should be organized in your application. Everybody has a different idea or taste, but this chapter brings you a pragmatic approach.
+*__Optimizing Your Application Design__*. A great introduction to contexts and how to associate data from different contexts. In case you ever feel like watching a never-ending discussion, just get some developers together and have them debate how contexts should be organized in your application. Everybody has a different idea or taste, but this chapter brings you a pragmatic approach.
 
-__*Working with Embedded Schemas__*. A straightforward chapter that shows the whys and hows of working with data associations that aren't references to other tables.
+*__Working with Embedded Schemas__*. A straightforward chapter that shows the whys and hows of working with data associations that aren't references to other tables.
 
-__*Creating Polymorphic Associations__*. My favorite part of the book. It shows you four different ways of implementing polymorphism in your database, comparing the pros and cons of each approach. It was a delightful and insightful read.
+*__Creating Polymorphic Associations__*. My favorite part of the book. It shows you four different ways of implementing polymorphism in your database, comparing the pros and cons of each approach. It was a delightful and insightful read.
 
-__*Optimizing IEx for Ecto__*. This one was not for me, but you might like adding some Ecto shortcuts for your IEx session.
+*__Optimizing IEx for Ecto__*. This one was not for me, but you might like adding some Ecto shortcuts for your IEx session.
 
-__*Using Schemas Without Tables__*., It shows how you can create a schema struct that's not backed by a database schema. Very useful to create form validations that might trigger one or more services or repo changes.
+*__Using Schemas Without Tables__*., It shows how you can create a schema struct that's not backed by a database schema. Very useful to create form validations that might trigger one or more services or repo changes.
 
-__*Tuning for Performance__*. The authors show you some trade-offs you might want to be aware of when optimizing your application for performance. They show you some ways of querying with Ecto that saves tons of application memory.
+*__Tuning for Performance__*. The authors show you some trade-offs you might want to be aware of when optimizing your application for performance. They show you some ways of querying with Ecto that saves tons of application memory.
 
 These are all the advanced topics that I'm sure many developers will benefit from. I believe many of these topics would be helpful to any developer, not just the Elixir crowd.
 
