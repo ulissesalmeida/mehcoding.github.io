@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Programming Ecto Review
-date:   2019-05-13
+date:   2019-07-29
 author: Ulisses Almeida
 categories: Book Reviews
 lang: en
