@@ -11,6 +11,8 @@ image: /assets/tallinn.jpg
 
 ![tallinn](/assets/tallinn.jpg)
 
+__*Texto revisado pela minha irmão [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
+
 Em um post anterior comentei sobre minha saída da Plataformatec e do Brasil. Hoje, venho contar um pouquinho sobre como está sendo essa mudança, deixar alguns aprendizados e dicas para outras pessoas que estejam querendo fazer uma mudança parecida.
 
 ## Quais documentos preciso levar?

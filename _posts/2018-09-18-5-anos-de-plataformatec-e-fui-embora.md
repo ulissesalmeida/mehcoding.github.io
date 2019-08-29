@@ -11,6 +11,8 @@ image: /assets/ptec-team.jpg
 
 ![ingles](/assets/ptec-team.jpg)
 
+__*Texto revisado pela minha irmão [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
+
 Quantas pessoas você já ouviu falar que trabalharam em uma empresa de TI por mais de 2 anos? Raro, né? E mais de 5 anos? E, ainda, em uma empresa de consultoria? Vixi! Apresento-lhes: eu!
 
 Eu sou Ulisses, trabalhei na Plataformatec por mais de 5 anos e depois desse tempão todo decidi ir embora. Estou escrevendo esse texto como uma forma de despedida dessa etapa da minha vida e explicar um pouco do porquê dessa decisão para as pessoas, amigas ou conhecidas, que me acompanharam e ainda acompanham por todo esse tempo.
