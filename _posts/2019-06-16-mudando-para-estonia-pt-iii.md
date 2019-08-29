@@ -11,7 +11,7 @@ image: /assets/tallinn_pt3_03.jpg
 
 ![abidibidebob](/assets/tallinn_pt3_03.jpg)
 
-__*Texto revisado pela minha irmão [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
+__*Texto revisado pela minha irmã [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
 
 Olá, galera! Novamente estou aqui contando um pouco mais sobre como está sendo a minha mudança e o meu processo de adaptação na Estônia. E claro, deixar algumas dicas para novos brasileiros e brasileiras que porventura podem acabar vindo morar aqui também.
 

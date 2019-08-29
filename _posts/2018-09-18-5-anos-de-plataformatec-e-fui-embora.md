@@ -11,7 +11,7 @@ image: /assets/ptec-team.jpg
 
 ![ingles](/assets/ptec-team.jpg)
 
-__*Texto revisado pela minha irmão [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
+__*Texto revisado pela minha irmã [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
 
 Quantas pessoas você já ouviu falar que trabalharam em uma empresa de TI por mais de 2 anos? Raro, né? E mais de 5 anos? E, ainda, em uma empresa de consultoria? Vixi! Apresento-lhes: eu!
 

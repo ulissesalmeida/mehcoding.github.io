@@ -11,7 +11,7 @@ image: /assets/tallinn_pt3_03.jpg
 
 ![archery](/assets/tallinn_pt_04.jpg)
 
-__*Texto revisado pela minha irmão [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
+__*Texto revisado pela minha irmã [Thamiris](https://twitter.com/missdracaryz). Valeu pela revisão incrível! ❤️ ❤️ ❤️ ❤️*__
 
 O tempo passa rápido, hein?! Daqui a alguns meses irei fazer 1 ano morando na Estônia! 😱 Parece que quanto mais velho você é, mais o tempo parece passar rápido. Você também sente isso?
 
