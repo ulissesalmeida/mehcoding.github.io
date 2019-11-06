@@ -5,13 +5,13 @@ date:   2019-10-31
 author: Ulisses Almeida
 categories: Elixir
 lang: en
-excerpt: "Hello, my dearest readers. I'm here to let you know I've been working in a tiny CPF validation library for Elixir."
+excerpt: "Hello, my dearest readers. I'm here to let you know I've been working in a tiny CPF validation library for Elixir. Let's start by telling you where the motivation to write a new library came from."
 image: /assets/cpf.jpg
 ---
 
 ![cpf](/assets/cpf.jpg)
 
-Hello, my dearest readers. I'm here to let you know I've been working in a [tiny CPF validation library for Elixir](https://hex.pm/packages/cpf). Let's start by telling you where the motivation to write a new CPF validation library came.
+Hello, my dearest readers. I'm here to let you know I've been working in a [tiny CPF validation library for Elixir](https://hex.pm/packages/cpf). Let's start by telling you where the motivation to write a new library came from.
 
 This year I visited [ElixirConf EU 2019](https://www.elixirconf.eu/elixirconfeu2019).
 It was my first time visiting a programming conference outside of Brazil. It was very cool to meet many developers and speakers from different countries. In that event had fantastic talks; one was very special for me: [Bridging the Divide A Philosophy of Library Design](https://www.youtube.com/watch?v=fxe5NzHDxpk) by Brooklin Zelenka. That talk gave me the inspiration to try creating a [cpf library](https://github.com/ulissesalmeida/cpf) following the concepts that she talked. And it's done. Ok, I know; software is never really done. But I believe I reached a point that is good for me, and probably it can be useful for more people.
