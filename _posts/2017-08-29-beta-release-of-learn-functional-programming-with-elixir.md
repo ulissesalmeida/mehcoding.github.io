@@ -6,7 +6,7 @@ author: Ulisses Almeida
 categories: plataformatec-blog
 lang: en
 excerpt: "In 2017, The Pragmatic Bookshelf started the sales of Learn Functional Programming with Elixir Beta written by me. After one year of hard work, we are finally publishing the beta version of the book. In this blog post, I’ll tell you about the motivation for writing a book, its contents and its future."
-image: /assets/cdc-elixir.png
+image: /assets/cdc-elixir.jpg
 ---
 
 [![cdc-elixir](/assets/cdc-elixir.jpg)](https://pragprog.com/book/cdc-elixir/learn-functional-programming-with-elixir)
