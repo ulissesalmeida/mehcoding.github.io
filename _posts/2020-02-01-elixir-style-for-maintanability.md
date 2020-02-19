@@ -233,8 +233,10 @@ def create_order(user, item) do
   |> handle_create_order_response()
 end
 
-defp handle_create_order_response({:ok, json}), do: {:ok, Order.new(json)}
-defp handle_create_order_response({:error, json}), do: {:ok, CreateOrderError.new(json)}
+defp handle_create_order_response({:ok, json}),
+  do: {:ok, Order.new(json)}
+defp handle_create_order_response({:error, json}),
+  do: {:ok, CreateOrderError.new(json)}
 
 # preferred
 
@@ -325,7 +327,7 @@ products
 |> Enum.filter(& &1["available"])
 |> Enum.map(&Map.new(&1, fn {key, value} -> {String.upcase(key), value} end))
 
-# preferable (but too verbose is there's no reusability)
+# preferable (but too verbose if there's no reusability)
 products
 |> Enum.filter(&by_availability/1)
 |> Enum.map(&to_upcase_keys/1)
