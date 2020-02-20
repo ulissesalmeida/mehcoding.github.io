@@ -35,7 +35,7 @@ def calculate(number) when is_integer(number) do
 # ...
 
 # preferred
-@typespec calculate(Item.t() | Product.t() | integer) :: integer
+@spec calculate(Item.t() | Product.t() | integer) :: integer
 def calculate(%Item{}) do
 # ...
 ```
@@ -464,15 +464,15 @@ We already have lots of discussions about code organization in Elixir. It looks 
 ```elixir
 # not preferable
 defmodule Orders do
-  @moduledoc """ pub_fun_a """
+  @doc """ pub_fun_a """
   @typespec pub_fun_a
   def pub_fun_a
 
-  @moduledoc """ pub_fun_b """
+  @doc """ pub_fun_b """
   @typespec pub_fun_b
   def pub_fun_b
 
-  @moduledoc """ pub_fun_c """
+  @doc """ pub_fun_c """
   @typespec pub_fun_c
   def pub_fun_c
 
@@ -491,7 +491,7 @@ end
 
 # preferable
 defmodule Orders do
-  @moduledoc """ pub_fun_a """
+  @doc """ pub_fun_a """
   @typespec pub_fun_a
   def pub_fun_a
 
@@ -499,13 +499,13 @@ defmodule Orders do
 
   defp helper_of_pub_fun_a_2
 
-  @moduledoc """ pub_fun_b """
+  @doc """ pub_fun_b """
   @typespec pub_fun_b
   def pub_fun_b
 
   defp helper_of_pub_fun_b
 
-  @moduledoc """ pub_fun_c """
+  @doc """ pub_fun_c """
   @typespec pub_fun_c
   def pub_fun_c
 
