@@ -19,6 +19,12 @@ Sem mais delongas, vamos lá!
 
 ## Personal code
 
+UPDATE: Se você veio para Estônia por uma empresa, este processo você não precisa
+mais fazer. A empresa irá requirir seu personal code.
+
+UPDATE: A esposa ou marido que veio com você não precisa mais pedir o personal code. O
+personal code será gerado quando a pessoa tiver obter permissão de residência.
+
 A primeira coisa que você tem que fazer ao chegar na Estônia a trabalho, estudo ou para morar com sua parceira ou parceiro é ter o seu número de registro. É basicamente um “RG”, mas você não ganha nenhum documento físico, apenas um papel sulfite impresso com seu número. Esse número vai servir para quase tudo que você for fazer enquanto morar na Estônia. Você precisará desses documentos para obter o seu número de registro:
 
 * Passaporte;
