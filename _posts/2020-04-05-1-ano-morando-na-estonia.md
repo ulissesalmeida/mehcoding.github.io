@@ -6,7 +6,7 @@ author: Ulisses Almeida
 categories: life
 lang: pt-BR
 excerpt: "Este post encerra a série sobre a migração para Estônia que eu comecei no final de 2018. Este post é um pequeno resumo, um veredito e, serve também, como um índice para você que está migrando ou somente curioso."
-image: /assets/tallinn_pt5.jpg
+image: /assets/estonian-swamp.jpg
 ---
 
 ![verao](/assets/estonian-swamp.jpg)
