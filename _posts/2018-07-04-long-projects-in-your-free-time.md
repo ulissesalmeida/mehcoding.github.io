@@ -10,7 +10,7 @@ Programming With Elixir book, and its first chapter is available here. It took
 me one year and a half to finish the book. I’m here to share my experience,
 things that worked for me. I hope it might help you to run your own longtime
 project in your free time."
-image: /assets/inner-layout-diagram.png
+image: /assets/longprojects.jpg
 ---
 
 ![longprojects](/assets/longprojects.jpg)
