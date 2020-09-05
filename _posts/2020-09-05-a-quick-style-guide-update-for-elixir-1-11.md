@@ -3,9 +3,9 @@ layout: post
 title:  A Quick Style Guide Update for Elixir 1.11
 date:   2020-09-05
 author: Ulisses Almeida
-categories: Elixir
+categories: Elixir 1.11 is coming and bringing new data constructors compile checks that will change a little bit the safest way to write Elixir code. The good news is: it is for the best. The update will make your structs attribute access less verbose and straightforward.
 lang: en
-excerpt: "Today I would like to share my thoughts about some Elixir good practices in writing maintainable code. The guidelines below cover topics that aren't present in the currently available style guides. They can be counterintuitive or controversial; so talk it over with your team before adopting them."
+excerpt: "Elixir 1.11 ."
 image: /assets/elixir_guide.jpg
 ---
 
