@@ -38,6 +38,10 @@ def calculate(number) when is_integer(number) do
 @spec calculate(Item.t() | Product.t() | integer) :: integer
 def calculate(%Item{}) do
 # ...
+def calculate(%Product{}) do
+# ...
+def calculate(number) when is_integer(number) do
+# ...
 ```
 
 In Elixir, you can have multiple clauses for the same function with pattern matching and guard clauses. Thanks to that, you can dynamically dispatch different expressions given different data types. But the downside is it's hard to figure out in a quick glance how many data types are supported. When you use typespecs, they provide an excellent introduction to your function definitions. Remember, you don't need to add type specifications to your private functions, but feel free to add them to most of your public functions. Once you adopt them, you start being more thoughtful of how your function interfaces are structured and how well your boundaries are defined.

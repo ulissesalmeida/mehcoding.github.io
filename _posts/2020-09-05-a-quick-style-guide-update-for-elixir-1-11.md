@@ -82,4 +82,4 @@ end
 
 That's all! I've also updated my [style guide post]({{ site.baseurl }}{% post_url 2020-02-01-elixir-style-for-maintanability %}) with the improved data constructors feature. I hope Elixir 1.11 helps you write beautiful code.
 
-I know it's have been a time since the last post. When the mid-spring arrived, I confess it was hard to stay at home and write after a long winter and quarantine isolation. In Estonia, the quarantine period was fast, something like 2-3 months, and we could back to "normal life" and enjoy mid-spring and summer. Now, the autumn is coming, the cases are increasing again, and probably soon, we'll be stuck in quarantine again. Maybe, write more. Stay safe!
+I know it's have been a time since the last post. When the mid-spring arrived, I confess it was hard to stay at home and write after a long winter and quarantine isolation. In Estonia, the quarantine period was fast, something like 2-3 months, and we could back to "normal life" and enjoy mid-spring and summer. Now, the autumn is coming, the cases are increasing again, and probably soon, we'll be stuck in quarantine again. Thanks to that, maybe I'll write more. Stay safe!
