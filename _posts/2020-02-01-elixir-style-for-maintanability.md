@@ -84,6 +84,11 @@ Elixir compiles all the code that lives in the `lib/` folder by doing some check
 user.id
 
 # (static, preferable for lib)
+%User{} = user
+user.id
+
+# (static, preferable when your Elixir's version is previous than 1.11 or
+# short assignments)
 %User{id: user_id} = user
 
 # (dynamic, preferable for test)
@@ -106,6 +111,11 @@ end
 put_in(user.name, "Ulisses")
 
 # (static, preferable for lib)
+%User{} = user
+%{user | name: "Ulisses"}
+
+# (static, preferable when your Elixir's version is previous than 1.11 or
+# short updates)
 %User{user | name: "Ulisses"}
 ```
 
@@ -113,9 +123,9 @@ As you can see, the static version is more verbose, and I recommend that for the
 
 If we have unit tests, why bother too much with static analysis? I had the same resistance in the past, but now I can sleep better with these guarantees that it provides while the downside of being more verbose is not that bad. Being more explicit about the structures you are using helps you localize them when you want to refactor and read the details about them.
 
-## Long pattern matching in function definitions
+## Pattern matching in function definitions
 
-If you start to use a compile-friendly style, you end up with huge variables assignments from structs. Where to put it? I suggest you leave them in function clauses to leave your function body clean.
+If you start to use a compile-friendly style. Where to put it? I suggest you leave them in function clauses to leave your function body clean.
 
 ### Example
 
@@ -132,7 +142,19 @@ def create_order!(item, user) do
   })
 end
 
-# compile-friendly, but not preferred
+# preferred
+def create_order!(%Item{} = item, %User{} = user) do
+  Repo.insert!(%Order{
+    user_id: user.id,
+    user_email: user.email,
+    user_shipping_address_id: user.user_shipping_address_id,
+    total_price: item.price,
+    total_weight: item.weight,
+    quantity: 1
+  })
+end
+
+# compile-friendly, preferred when your Elixir's version is previous than 1.11
 def create_order!(item, user) do
   %User{
     id: user_id,
@@ -155,7 +177,7 @@ def create_order!(item, user) do
   })
 end
 
-# preferred
+# preferred when your Elixir's version is previous than 1.11
 @spec create_order!(Item.t(), User.t()) :: Order.t()
 def create_order!(
       %Item{
@@ -179,14 +201,14 @@ def create_order!(
 end
 ```
 
-The preferred version is way more verbose than his dynamic version, but let's raise the advantages:
+The preferred version is a little bit more verbose than its dynamic version, but let's raise the advantages:
 
-  * The destructing in the function arguments is very explicit with which
-  structure and attributes are expected from the arguments
-  * The rest of the function is clean, it is only using what is needed
-  * The compiler can catch any typo mistakes
+  * It is very explicit with which structure is expected from the arguments
+  * The function's body is clean
+  * The compiler can catch typo mistakes
 
-The downside is the extended function definition that is not easy and fast to read. However, if we use `typespecs`, we can mitigate that problem, and I believe it makes the worth to pay the price of being more verbose.
+The downside is when your Elixir versions is before the 1.11, the extended function definition that is not easy and fast to read. However, if we use `typespecs`, we can mitigate that problem. But I strong suggest you upgrade your Elixir to the newest version and enjoy the improvements of the compiler on
+data constructors.
 
 ## Use `if`
 
