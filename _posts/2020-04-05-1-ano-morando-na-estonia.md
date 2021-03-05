@@ -63,42 +63,42 @@ Seguem todos os links organizados por categoria sobre tudo que foi apresentado n
 
 ### Mudando para Estônia
 
-1. [Quais documentos preciso levar?]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#quais-documentos-preciso-levar)
-2. [Não precisa de visto, mas precisa]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#não-precisa-de-visto-mas-precisa)
-3. [Permissão de Residência]({{ site.baseurl }}{% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#permissão-de-residência)
-4. [Bagagens, really?]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#bagagens-really)
-5. [Apartamento, até que fácil]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#apartamento-até-que-fácil)
-6. [Ajuda de realocação]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#ajuda-de-realocação)
-7. [Personal Code]({{ site.baseurl }}{% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#personal-code)
-8. [Seu ID-Card]({{ site.baseurl }}{% post_url 2019-08-29-mudando-para-estonia-pt-iv %}#seu-id-card)
-9. [Transporte público gratuito]({{ site.baseurl }}{% post_url 2019-12-25-mudando-para-estonia-pt-v %}#transporte-público-gratuito)
+1. [Quais documentos preciso levar?]({% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#quais-documentos-preciso-levar)
+2. [Não precisa de visto, mas precisa]({% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#não-precisa-de-visto-mas-precisa)
+3. [Permissão de Residência]({% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#permissão-de-residência)
+4. [Bagagens, really?]({% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#bagagens-really)
+5. [Apartamento, até que fácil]({% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#apartamento-até-que-fácil)
+6. [Ajuda de realocação]({% post_url 2018-10-28-mudando-para-estonia-pt-1 %}#ajuda-de-realocação)
+7. [Personal Code]({% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#personal-code)
+8. [Seu ID-Card]({% post_url 2019-08-29-mudando-para-estonia-pt-iv %}#seu-id-card)
+9. [Transporte público gratuito]({% post_url 2019-12-25-mudando-para-estonia-pt-v %}#transporte-público-gratuito)
 
 ### Burocracias
 
-1. [Casamento]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#casamento)
-2. [Extensão de Visto]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#extensão-de-visto)
-3. [Estrangeiros homossexuais! Cuidado!]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#estrangeiros-homossexuais-cuidado)
-4. [Doutor/enfermeira da família]({{ site.baseurl }}{% post_url 2019-12-25-mudando-para-estonia-pt-v %}#doutorenfermeira-da-família-family-doctor)
-5. [Transferindo sua carteira de habilitação para Estônia]({{ site.baseurl }}{% post_url 2019-12-25-mudando-para-estonia-pt-v %}#transferindo-sua-carteira-de-habilitação-para-estônia)
+1. [Casamento]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#casamento)
+2. [Extensão de Visto]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#extensão-de-visto)
+3. [Estrangeiros homossexuais! Cuidado!]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#estrangeiros-homossexuais-cuidado)
+4. [Doutor/enfermeira da família]({% post_url 2019-12-25-mudando-para-estonia-pt-v %}#doutorenfermeira-da-família-family-doctor)
+5. [Transferindo sua carteira de habilitação para Estônia]({% post_url 2019-12-25-mudando-para-estonia-pt-v %}#transferindo-sua-carteira-de-habilitação-para-estônia)
 
 ### As 4 estações
 
-1. [Outono]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#outono)
-2. [Inverno]({{ site.baseurl }}{% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#inverno)
-3. [Primavera]({{ site.baseurl }}{% post_url 2019-08-29-mudando-para-estonia-pt-iv %}#primavera)
-4. [Verão]({{ site.baseurl }}{% post_url 2019-12-25-mudando-para-estonia-pt-v %}#verão)
+1. [Outono]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#outono)
+2. [Inverno]({% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#inverno)
+3. [Primavera]({% post_url 2019-08-29-mudando-para-estonia-pt-iv %}#primavera)
+4. [Verão]({% post_url 2019-12-25-mudando-para-estonia-pt-v %}#verão)
 
 ### Cotidiano
 
-1. [Hora do Almonstro!]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#hora-do-almonstro)
-2. [Internet: Telia vs Elisa]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#internet-telia-vs-elisa)
-3. [Hora do Jantar!]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#hora-do-jantar)
-4. [Viagens]({{ site.baseurl }}{% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#viagens)
+1. [Hora do Almonstro!]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#hora-do-almonstro)
+2. [Internet: Telia vs Elisa]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#internet-telia-vs-elisa)
+3. [Hora do Jantar!]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#hora-do-jantar)
+4. [Viagens]({% post_url 2019-06-16-mudando-para-estonia-pt-iii %}#viagens)
 
 ### Lugares para visitar
 
-1. [Old Town]({{ site.baseurl }}{% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#old-town)
-2. [Kadriorg]({{ site.baseurl }}{% post_url 2019-08-29-mudando-para-estonia-pt-iv %}#kadriorg)
+1. [Old Town]({% post_url 2018-10-28-mudando-para-estonia-pt-ii %}#old-town)
+2. [Kadriorg]({% post_url 2019-08-29-mudando-para-estonia-pt-iv %}#kadriorg)
 
 
 ## CORONA VAIRUS! CORONA VAIRUS!
