@@ -156,6 +156,18 @@
   }
 }
 
+table {
+  border-collapse: collapse;
+  margin-bottom: $spacing-unit;
+}
+tr {
+  border-bottom: 1px solid #ccc;
+}
+th, td {
+  text-align: left;
+  padding: 4px;
+}
+
 @include media-query($on-palm) {
 
 }
